@@ -1,7 +1,8 @@
 spring:
   profiles:
-    active: dev #激活开发环境配置
+    active ：开发人员＃激活开发环境配置
     
+---
 
 server:
   port: 4001
@@ -9,8 +10,8 @@ spring:
   profiles: dev #开发环境
   applications:
     name: micrsoervice-config-dev
-    
-
+   
+---
 
 server:
   port: 4002
